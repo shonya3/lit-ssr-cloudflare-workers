@@ -13,6 +13,10 @@ export class SimpleCounterElement extends LitElement {
 	@property({ type: Number }) value = 0;
 
 	protected render(): TemplateResult {
-		return html`<button @click=${() => this.value++}>${this.value}</button>`;
+		return html`<button @click=${this.#h_click}>${this.value}</button>`;
+	}
+
+	#h_click() {
+		this.value += 2;
 	}
 }
