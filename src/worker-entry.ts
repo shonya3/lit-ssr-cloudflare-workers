@@ -1,6 +1,6 @@
+import './shims';
 import { render } from '@lit-labs/ssr';
 import { html } from 'lit';
-import './shims';
 
 import './app-root';
 

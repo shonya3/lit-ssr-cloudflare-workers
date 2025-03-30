@@ -1,5 +1,3 @@
-import './shims';
-
 /**
  * Class decorator factory that defines the decorated class as a custom element.
  * This decorator does not throw if already defined.
